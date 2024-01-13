@@ -14,6 +14,12 @@ body {
   color: white;
   padding: 15px 35px;
 }
+.btn-primary:hover{
+  background-color: #fffefead;
+  border: 2px solid black;
+  color: #181818;
+  transition: 1s;
+}
 /*nav css*/
 nav {
   display: flex;
@@ -115,6 +121,6 @@ main {
 
 
 
-.What-I-do{
-  margin-top: 105px;
+#what-discribe{
+  padding: 30px 150px;
 }
