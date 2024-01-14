@@ -122,5 +122,20 @@ main {
 
 
 #what-discribe{
-  padding: 30px 150px;
+  padding: 0px 150px 30px 150px;
+  margin-top: 0;
+}
+.section-title{
+  padding-top: 50px;
+}
+
+.con{
+  border: 2px solid black;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between
+}
+.child-con{
+  padding: 30px;
+  border: 2px solid red;
 }
