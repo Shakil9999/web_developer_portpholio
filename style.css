@@ -14,7 +14,7 @@ body {
   color: white;
   padding: 15px 35px;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #fffefead;
   border: 2px solid black;
   color: #181818;
@@ -115,27 +115,52 @@ main {
 .info-title {
   margin-bottom: 0;
 }
-.info-description{
+.info-description {
   margin-top: 0;
 }
 
-
-
-#what-discribe{
+#what-discribe {
   padding: 0px 150px 30px 150px;
   margin-top: 0;
 }
-.section-title{
+.section-title {
   padding-top: 50px;
 }
 
-.con{
+.con {
   border: 2px solid black;
   padding: 100px;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
-.child-con{
+.child-con {
   padding: 30px;
   border: 2px solid red;
+}
+
+/* skill style */
+
+.skills-container {
+  display: flex;
+  gap: 25px;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* resume style */
+
+.resume{
+  display: flex;
+  justify-content: space-between;
+  gap: 55px;
+}
+.rsme{
+  text-align: center;
 }
